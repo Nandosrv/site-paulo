@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em Manutenção</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1e1e1e;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            animation: pulse 1.5s infinite;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        /* Animação de engrenagens */
+        .gear {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #f1c40f;
+            position: relative;
+            margin: 40px auto;
+            animation: rotate 4s infinite linear;
+        }
+
+        .gear::before, .gear::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 30px;
+            height: 10px;
+            background-color: #1e1e1e;
+            transform-origin: center;
+        }
+
+        .gear::before {
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        .gear::after {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="gear"></div>
+        <h1>Site em Manutenção</h1>
+        <p>Estamos trabalhando para melhorar sua experiência. Voltaremos em breve!</p>
+    </div>
+</body>
+</html>
