@@ -1,0 +1,21 @@
+@import url(/style/import.css);
+
+
+
+#mobile_btn{
+    font-size: 1.5rem;
+
+}
+
+#mobile_menu{
+    display: none;
+  
+    
+}
+#mobile_nav_list{
+    display: none;
+}
+
+.nav-list{
+    display: none;
+}

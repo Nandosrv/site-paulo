@@ -1,0 +1,239 @@
+@import url("/style/import.css");
+
+
+#header-div{
+    /* background: #0267C4; */
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#links{
+    background: transparent;
+    display: flex;
+    gap: 20px;
+}
+
+#header-div img{
+    cursor: pointer;
+}
+
+.icon {
+    
+    font-size: 36px;
+    
+    color: #fff;
+    
+   
+   
+    text-align: center;
+    text-decoration: none;
+    
+    
+   
+    
+}
+
+
+
+.icon .fab {
+    padding: 1px;
+    
+}
+
+.icon:hover {
+    background-color: #fff;
+    color: #029e3b;
+    font-weight: 900;
+    box-shadow: 2px 2px 20px;
+}
+
+
+
+/* Adiciona uma descrição para acessibilidade */
+.icon[aria-label] {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.buttonnzap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #01e675;
+    position: fixed;
+    bottom: 40px;
+    right: 24px;
+    border-radius: 50%;
+    padding: 6px;
+    
+    z-index: 100;
+}
+
+.container {
+    max-width: 1282px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    padding: auto 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#banner.rolagem{
+    background: red;
+    padding: 20px 4%;
+   
+   
+}
+
+header i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+header ul {
+    list-style: none;
+}
+
+#header {
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+
+#links a {
+    color: #0267C4;
+    text-decoration: none;
+    margin: 2.5rem 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+nav{
+    display: flex;
+    width: 100%;
+    right: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#header-div #links a:hover{
+    color: #d8684e;
+    font-size: 19px ;
+
+}
+#mudanca{
+    font-family: "Inria Sans", sans-serif;
+    color: #d8684e;
+}
+.btn-contato button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    border-radius: 12px; 
+    background-color: #d8684e;
+    color: #fff;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 600;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 1);
+}
+
+.btn-contato button:hover{
+    background-color: #0267C4;
+}
+
+#banner {
+    width: 100vw; /* Garante que o banner ocupe 100% da largura da tela */
+    height: 100vh; /* Garante que o banner ocupe 100% da altura da tela */
+    background-image: url("/src/img/4k-tech-1eweq7h47kehxd7y.png");
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o banner */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+    border: 1px solid rgb(5, 4, 4); /* Borda opcional */
+}
+
+
+
+
+
+.banner .span-banner {
+    color: #008371;
+    font-size: 3rem;
+}
+
+
+
+.contener-div{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+
+.banner-text {
+    color: #0267C4;
+    max-width: 800px;
+    font-size: 3rem;
+    margin: 315px auto;
+    background: transparent;
+  
+    
+}
+
+.banner-text b{
+    font-size: 3rem;
+    color: #fff;
+}
+
+.btn-default{
+    font-size: 2rem;
+  
+
+}
+
+#nav_logo{
+    color: rgb(212, 29, 29);
+}
+
+
+
+#mobile_btn_x{
+    display: flex;
+    border: none;
+    justify-content: space-between;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#mobile_btn{
+    width: 2rem;
+    color: #fff;
+
+}
+
+#mobile_btn{
+    display: none;
+}
+

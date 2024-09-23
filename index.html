@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/import.css">
+    <link rel="stylesheet" href="/style/media.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div id="banner">
+            <div id="header-div">
+                <nav>
+                    <div id="mobile_btn_x">
+
+                        <a href="#" target="_blank"><i class="fa-solid fa-c" id="nav_logo">&amp;C</i></a>
+                    </div>
+
+                    <div id="links">
+                        <a href="#">inicio</a>
+                        <a href="#">Contatos</a>
+                        <a href="#">Localizaçao</a>
+
+                    </div>
+                    <div id="mobile_btn">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="#"><button>Contato</button></a>
+
+                    </div>
+                </nav>
+
+            </div>
+
+
+            <div class="banner-text">
+                Seu celular parou de funcionar ou quebrou? <b><span id="mudanca">Não se preocupe!</span></b>
+            </div>
+    </header>
+
+   
+        
+
+        <!-- Butoom wp -->
+        <div class="buttonnzap">
+            <a href="https://wa.me/5516991916526" class="icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    
+
+    <footer></footer>
+
+    <!-- Script para mudança automática -->
+    <script src="/js/script.js"></script>
+    <script>
+        const frases = [
+
+            "Nós podemos consertar!",
+            "Traga para nossos especialistas!",
+            "Solução rápida e fácil!"
+        ];
+
+        let indiceFrase = 0;
+        const elemento = document.getElementById("mudanca");
+        const textoCompleto = "";
+
+        function escreverFrase() {
+            let fraseAtual = frases[indiceFrase];
+            let textoParaEscrever = textoCompleto + fraseAtual;
+            let i = 0;
+
+            elemento.innerHTML = ""; // Limpa o conteúdo anterior
+
+            const intervalo = setInterval(() => {
+                if (i < textoParaEscrever.length) {
+                    elemento.innerHTML += textoParaEscrever.charAt(i);
+                    i++;
+                } else {
+                    clearInterval(intervalo);
+                    indiceFrase = (indiceFrase + 1) % frases.length; // Atualiza para a próxima frase
+                    setTimeout(escreverFrase, 1000); // Espera 4 segundos antes de escrever a próxima
+                }
+            }, 100); // Ajuste a velocidade da escrita (100ms por letra)
+        }
+
+        escreverFrase();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+@media screen and (max-width: 1170px) {
+    nav{
+        display: flex;
+        background-color: transparent;
+        width: 75%;
+        margin: 1rem auto;
+        justify-content: space-between;
+        align-items: center;
+        
+        }
+
+        #mobile_btn{
+            display: flex;
+            cursor: pointer;
+            
+        }
+        .banner-text {
+            font-size: 1.5rem; 
+            padding: 10px; 
+            white-space: normal;
+            color: #fff;
+            margin-top: 50%;
+            padding: 2%;
+            font-size: 2rem;
+            font-family:  'Poppins', sans-serif;;
+         }
+        
+       
+
+        #mudanca{
+            font-size: 2rem;
+            color: #0267C4;
+        }
+          #links{
+             display: none;
+             
+          }
+
+          .btn-contato{
+            display: none;
+          }
+          #links.active{
+            flex-direction: column;
+            align-items: center;
+            margin-top: 4rem;
+            justify-content: center;
+            width: calc(50vh - 65px);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            display: flex;
+            right: 0;
+            background-color: #0f0f0f;
+            transition: all 0.2s ease-in-out;
+           }
+           #links a{
+            display: flex;
+            color: aliceblue;
+            font-size: 1.2rem;
+            font-family: 'Popns';
+            margin-top: 1rem;
+           
+            
+           }
+}

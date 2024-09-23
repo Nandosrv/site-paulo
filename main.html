@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+           
+        }
+        .active-nav {
+            display: flex;
+        }
+
+        .menu{
+            display: none;
+        }
+        @media screen and (max-width: 500px) {
+                nav{
+                    flex-direction:column;
+                    display:none;
+                    position: absolute;
+                    right: 0;
+                    top: 59px;
+                    /* border: solid; */
+                    width: 50%;
+                    height: calc(100vh - 65px);
+                    justify-content: start;
+                    padding: 1rem;
+                    background: #333;
+
+                }
+                .menu{
+                    display: flex;
+                }
+                
+            }
+    </style>
+
+    <header>
+        <div class="logo">
+            <img src="" alt=""><span>
+                logo
+            </span>
+        </div>
+        <nav class="Nav-menu">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+        </nav>
+        <div class="menu">
+            <button onclick="(function(e) { 
+                console.log(e);
+                const nav = document.querySelector('.Nav-menu');
+                console.log(nav);
+                nav.classList.toggle('active-nav');
+
+                 })(event)">Menu</button>
+        </div>
+        
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
