@@ -1,4 +1,4 @@
-@import url("/style/import.css");
+@import url("./import.css");
 
 
 #header-div{
@@ -166,7 +166,7 @@ nav{
 #banner {
     width: 100vw; /* Garante que o banner ocupe 100% da largura da tela */
     height: 100vh; /* Garante que o banner ocupe 100% da altura da tela */
-    background-image: url("/src/img/4k-tech-1eweq7h47kehxd7y.png");
+    background-image: url("../src/img/4k-tech-1eweq7h47kehxd7y.png");
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     background-size: cover; /* Faz a imagem cobrir todo o banner */
