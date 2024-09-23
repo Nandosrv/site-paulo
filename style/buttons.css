@@ -14,6 +14,7 @@
     background: transparent;
     display: flex;
     gap: 20px;
+    font-size: 1.6rem;
 }
 
 #header-div img{
@@ -23,17 +24,10 @@
 .icon {
     
     font-size: 36px;
-    
     color: #fff;
-    
-   
-   
     text-align: center;
     text-decoration: none;
-    
-    
    
-    
 }
 
 
@@ -81,7 +75,7 @@
 }
 
 .container {
-    max-width: 1282px;
+    
     margin: auto;
 }
 
@@ -94,7 +88,7 @@
 header {
     width: 100%;
     padding: auto 4%;
-    position: fixed;
+    
     top: 0;
     left: 0;
 }
@@ -124,21 +118,14 @@ header ul {
 #links a {
     color: #0267C4;
     text-decoration: none;
-    margin: 2.5rem 40px;
+    padding: 1rem;
     cursor: pointer;
     transition: 0.3s ease;
 
 }
-nav{
-    display: flex;
-    width: 100%;
-    right: 20px;
-    justify-content: space-between;
-    align-items: center;
 
-}
 
-#header-div #links a:hover{
+ #links a:hover{
     color: #d8684e;
     font-size: 19px ;
 
@@ -164,15 +151,15 @@ nav{
     background-color: #0267C4;
 }
 
-#banner {
-    width: 100vw; /* Garante que o banner ocupe 100% da largura da tela */
-    height: 100vh; /* Garante que o banner ocupe 100% da altura da tela */
+.container {
+    width: 100%; /* Garante que o banner ocupe 100% da largura da tela */
+    height: 100%; /* Garante que o banner ocupe 100% da altura da tela */
     background-image: url("../src/img/4k-tech-1eweq7h47kehxd7y.png");
     background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    background-size: cover; /* Faz a imagem cobrir todo o banner */
-    background-attachment: fixed; /* Fixa a imagem no fundo */
-    border: 1px solid rgb(5, 4, 4); /* Borda opcional */
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+    border: 1px solid rgb(5, 4, 4);
 }
 
 
@@ -199,6 +186,9 @@ nav{
     font-size: 3rem;
     margin: 315px auto;
     background: transparent;
+
+    height: 800px;
+    
   
     
 }
@@ -238,3 +228,225 @@ nav{
     display: none;
 }
 
+h3{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    margin: auto;
+    padding: 2rem;
+    color: #0eff86;   
+    
+}
+
+.ver-mais {
+   color: #68b4e6;
+    width: 700px;
+    border-radius: 22px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ver-mais a{
+    color: #68b4e6;
+
+    display: flex;
+   
+   font-size: 2rem;
+   text-decoration: none;
+    color: #fff;
+}
+.button_mais{
+    border-radius: 34px;
+    width: 200px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(235, 213, 17);
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.button_mais:hover{
+    background-color: #0267C4;
+}
+
+#content-continuacao{
+    background-color: transparent;
+    border-radius: 12px;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 4rem;
+    
+}
+
+#content-continuacao img{
+    display: flex;
+    width: 75%;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+#assistencia{
+    width: 90%;
+    display: flex;
+    margin: 10rem;
+}
+.assistencia-h3{
+    border: 1px solid rgb(36, 28, 28);
+    display: flex;
+    width: 100%;
+    height: 100px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    
+}
+
+
+.span-c{
+    border: 1px solid rgb(36, 28, 28);
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+    width: 100%;
+    
+
+}
+
+.span-c p{
+    width: 100%;
+    
+    margin: 0;
+    text-align: center;
+}
+
+.span-c span{
+    
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.saiba-mais {
+    border-radius: 34px;
+    width: 200px;
+    border: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(235, 213, 17);
+    cursor: pointer;
+    transition: .4s ease;
+    font-size: 2rem;
+    margin-top: 4rem;
+
+
+}
+
+.saiba-mais:hover{
+    background-color: #0267C4;
+}
+.saiba-mais a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#marcar-atendimento{
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom: 1px solid rgb(36, 28, 28);
+    width: 322px;
+}
+
+#marcar-atendimento h3{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.img-marca {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.img-marca img{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 4rem;
+    flex-direction: column;
+}
+
+.vantagens{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(36, 28, 28);
+    margin: 2rem;
+    text-align: center;
+}
+
+
+.vantagens p{
+    font-size: 2.5rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.maindiv img{
+    font-size: 100px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.maindiv p{
+    font-size: 1.5rem;
+}
+
+.icons-footer{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 3rem;
+}
+
+.icons-footer i{
+    color: #fff;
+    
+    transition: .5s ease;
+}
+
+.icons-footer i:hover {
+    color: #0267C4;
+    font-size: 2.1rem;
+}

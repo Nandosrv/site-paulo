@@ -23,6 +23,7 @@
             padding: 2%;
             font-size: 2rem;
             font-family:  'Poppins', sans-serif;;
+           
          }
         
        
@@ -30,6 +31,7 @@
         #mudanca{
             font-size: 2rem;
             color: #0267C4;
+            
         }
           #links{
              display: none;
@@ -62,4 +64,68 @@
            
             
            }
-}
+           #content-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: -600px;
+            background: #887d7d;
+           }
+
+           h3{
+            display: flex;
+            padding: 18px;
+           text-align: center;
+           font-size: 1.7rem;
+            color: #a2e668;
+            border: 2px rgb(10  4, 13, 13) solid;
+            border-radius: 12px;
+           }
+           p{
+            margin: 1rem;
+            text-align: center;
+            padding: 18px;
+           }
+
+           h4{
+            display: flex;
+            padding: 18px;
+           text-align: center;
+           font-size: 1.7rem;
+            color: #68b4e6;
+            border: 1px rgb(14, 13, 13) solid;
+            border-radius: 12px;
+           }
+
+           #img-text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          
+            border-bottom: 1px solid rgb(36, 28, 28);
+            gap: 5rem;
+            margin: 2rem;
+            text-transform: uppercase;
+            color: antiquewhite;
+            
+           }
+
+           .trocar-bateria{
+           
+            font-size: 1.5rem;
+            margin-top: -4rem;
+           }
+
+           .restauracao-de-software{
+            font-size: 1.5rem;
+            margin-top: -4rem;
+            
+           }
+
+           .troca-de-tela{
+            font-size: 1.5rem;
+            margin-top: -4rem;
+           }
+}   
