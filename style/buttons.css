@@ -41,13 +41,14 @@
 .icon .fab {
     padding: 1px;
     
+    
 }
 
 .icon:hover {
-    background-color: #fff;
+   background: transparent;
     color: #029e3b;
     font-weight: 900;
-    box-shadow: 2px 2px 20px;
+    
 }
 
 
