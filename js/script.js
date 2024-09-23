@@ -6,6 +6,3 @@ $(document).ready(function(){
         })
 })
 
-function navegar(){
-    window.location = '../main.html'
-}
