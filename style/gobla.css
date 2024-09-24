@@ -1,5 +1,27 @@
 @import url(/style/import.css);
 
+:root {
+    --primary: #4d4dff;
+    --buttons: #3655b3;
+    --roxo: #884dff;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 *{
     margin: 0;

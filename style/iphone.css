@@ -1,0 +1,82 @@
+@import url(./import.css);
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 950px) {
+    .banner-text {
+     display: none;
+    }
+    .mobile_btn_x{
+        z-index: 11;
+    } 
+    .img-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 12px;
+        height: 100px;
+        
+    }
+
+    .img-logo img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 5rem;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+    }
+
+    main{
+        width: auto;
+         background: #ccc;
+    }
+   
+    .div-text-p{
+        width: 100%;
+        background-color:#808080;
+        margin-top: 4rem;
+    }
+
+    .div-text-p p{
+        color: #ccc;
+        margin: 10px;
+    }
+
+    .comprar-iphone{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #808080;
+    }
+    .comprar-iphone h2{
+        font-size: 2rem;
+        color: var(--primary);
+       
+    }
+
+    .comprar-iphone li{
+        color: #d8aeae;
+        font-size: 1rem;
+        width: 300px;
+        
+        margin: 2rem auto;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+       
+    }
+  }
+
+
+  /* img header */

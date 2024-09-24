@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo-Celulares</title>
+    <main dis></main>
+    
+    <link rel="stylesheet" href="../style/import.css">
+    <link rel="stylesheet" href="../style/iphone.css">
+    
+    <meta name="description"
+        content="Assistencia do Paulo atua a mais de 20 anos no mercado de tecnologia, foi constituída em setembro de 2000">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+
+
+            <!-- <div id="header-div"> -->
+            <div id="mobile_btn_x">
+                 <a href="#" target="_blank"><i class="fa-solid fa-c" id="nav_logo">&amp;C</i></a>
+            </div>
+
+            <!-- </div> -->
+            <nav id="links">
+
+                <a href="#">inicio</a>
+                <a href="#">Sobre</a>
+                <a href="#">Localizaçao</a>
+
+            </nav>
+            <div id="mobile_btn">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+            <div class="btn-contato">
+                <a href="#"><button>Contato</button></a>
+                
+            </div>
+            
+        </header>
+        <!-- Mudança de texto -->
+        <div class="banner-text">
+            Seu celular parou de funcionar ou quebrou? <b><span id="mudanca">Não se preocupe!</span></b>
+        </div>
+        <section class="saibaiphone">
+
+            <main>
+                <div class="img-logo">
+                    <img src="../src/img/part2/acessorios-iphone.jpg" alt="">
+                </div>
+                <div class="div-text-p">
+                    <p>Quer proteger e personalizar seu celular? Os acessórios para iPhone são ideais e vão combinar com o seu estilo.</p>
+                    <p>Alguns acessórios de iPhone apresentam funções extras, como as capinhas, além de proteger dão um toque de personalidade e diferencia o seu aparelho, assim como os adesivos.</p>
+                    <p>Na Celsite, você encontra uma diversidade de produtos de qualidade comprados diretamente com as melhores empresas do ramo, para oferecer garantia sob os produtos e proporcionar maior confiança em nossos acessórios iPhone. Todos os produtos possuem garantia para defeitos de fábrica e nota fiscal, pois acreditamos que mais do que oferecer qualidade em nossos produtos, precisamos respeitar os direitos de nossos clientes.</p>
+                    <p>Nossa loja está há mais de 16 anos no mercado, oferecendo uma grande variedade de acessórios iPhone de qualidade</p>
+                </div>
+                <div class="comprar-iphone">
+                    <h2>
+                        Porque Comprar Acessórios iPhone na Celsite?
+                    </h2>
+                    <ul>
+                        <li>Acessórios de qualidade</li>
+                        <li>Nota fiscal e garantia;</li>
+                        <li>Preços especiais;</li>
+                        <li>Variedade de acessórios</li>
+                    </ul>
+                </div>
+            </main>
+
+
+
+
+
+
+
+
+            <!-- navbar -->
+            <script src="../js/script.js"></script>
+            <footer></footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    const frases = [
+
+        "Nós podemos consertar!",
+        "Traga para nossos especialistas!",
+        "Solução rápida e fácil!"
+    ];
+
+    let indiceFrase = 0;
+    const elemento = document.getElementById("mudanca");
+    const textoCompleto = "";
+
+    function escreverFrase() {
+        let fraseAtual = frases[indiceFrase];
+        let textoParaEscrever = textoCompleto + fraseAtual;
+        let i = 0;
+
+        elemento.innerHTML = ""; // Limpa o conteúdo anterior
+
+        const intervalo = setInterval(() => {
+            if (i < textoParaEscrever.length) {
+                elemento.innerHTML += textoParaEscrever.charAt(i);
+                i++;
+            } else {
+                clearInterval(intervalo);
+                indiceFrase = (indiceFrase + 1) % frases.length; // Atualiza para a próxima frase
+                setTimeout(escreverFrase, 1000); // Espera 4 segundos antes de escrever a próxima
+            }
+        }, 100); // Ajuste a velocidade da escrita (100ms por letra)
+    }
+
+    escreverFrase();
+</script>
+<!-- Mudança de texto -->
