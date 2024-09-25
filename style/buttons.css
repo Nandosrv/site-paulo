@@ -184,7 +184,8 @@ header ul {
     max-width: 800px;
     font-size: 3rem;
     margin: 315px auto;
-    background: transparent;
+   
+    height: 1px;
 
     height: 800px;
     

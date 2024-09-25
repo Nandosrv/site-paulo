@@ -15,16 +15,16 @@
             
         }
         .banner-text {
-            font-size: 1.5rem; 
-            padding: 10px; 
-            white-space: normal;
-            color: #fff;
-            margin-top: 50%;
-            padding: 2%;
-            font-size: 2rem;
-            font-family:  'Poppins', sans-serif;;
-           
-         }
+          font-size: 1.5rem; 
+          padding: 10px; 
+          white-space: normal;
+          color: #fff;
+          margin-top: 50%;
+          padding: 2%;
+          font-size: 2rem;
+          font-family:  'Poppins', sans-serif;;
+          height: 15vh;
+       }
         
        
 
@@ -69,8 +69,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin-top: -600px;
-            background: #887d7d;
+            margin-top: 3rem;
+            background: #493c3c;
            }
 
            h3{
@@ -79,6 +79,7 @@
            text-align: center;
            font-size: 1.7rem;
             color: #a2e668;
+            margin: 2rem;
             border: 2px rgb(10  4, 13, 13) solid;
             border-radius: 12px;
            }
