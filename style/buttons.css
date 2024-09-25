@@ -336,10 +336,11 @@ h3{
     margin: 0;
     text-align: left;
   text-indent: 0;
+  color: #fff;
 }
 
 .span-c span{
-    
+    color: #fff;
     margin-left: 1rem;
 }
 
