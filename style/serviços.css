@@ -254,10 +254,10 @@
     .button-fale button{
         text-align: center;
         width: 220px;
-        border-color: var(--amarelo-fraco) ;
+        border-color: #fff ;
         font-size: 2rem;
         text-decoration: none;
-        background: var(--amarelo-fraco);
+        background: #d90429;
         border-radius: 12px;
         
         
