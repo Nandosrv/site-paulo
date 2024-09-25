@@ -495,4 +495,9 @@ h3{
     width: 100%;
     height: 100%;
     background-color: rgb(235, 213, 17);
+    text-decoration: none;
+}
+
+.conheca-button button:hover{
+    background-color: #0267C4;
 }

@@ -1,0 +1,38 @@
+@media screen and (max-width: 1170px){
+
+    a.menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 50px;
+        position: relative;
+        transition: 0.3s transform ease-in-out;
+
+    }
+
+    a.menu span{
+        width: 60px;
+        height: 2px;
+        color: #fff;
+        background-color: #fff;
+        position: relative;
+    }
+
+    a.menu span::before,
+    a.menu span::after{
+        position: absolute;
+        content: '';
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #fff;
+        transition: 0.2s transform ease-in-out;
+        transform-origin: center right;
+    }
+
+    a.menu span::before{
+        transition: translateY(-20px);
+
+    }
+}
