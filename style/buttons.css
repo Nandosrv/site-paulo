@@ -276,7 +276,7 @@ h3{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: rgb(235, 213, 17);
+    background-color:#d90429;
     cursor: pointer;
     transition: .4s ease;
 }
@@ -353,6 +353,7 @@ h3{
 .span-c span{
     color: #fff;
     margin-left: 1rem;
+    text-transform: uppercase;
 }
 
 .saiba-mais {
@@ -362,7 +363,7 @@ h3{
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: rgb(235, 213, 17);
+    background-color: #d90429;
     cursor: pointer;
     transition: .4s ease;
     font-size: 2rem;
@@ -417,12 +418,26 @@ h3{
     
 }
 
+
+.text-ul {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 3rem;
+}
+.text-ul li{
+    text-align: left;
+    
+}
 .vantagens{
     width: 100%;
+    height: 300px;
     display: flex;
     border: 1px solid rgb(36, 28, 28);
     margin: 2rem;
     text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -430,6 +445,13 @@ h3{
     font-size: 2.5rem;
     color: #fff;
     text-transform: uppercase;
+}
+
+
+.pags i{
+    font-size: 4rem;
+    margin-top: 2rem;
+    justify-content: center;
 }
 
 .maindiv{
@@ -533,7 +555,7 @@ h3{
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(235, 213, 17);
+    background-color: #d90429;
     text-decoration: none;
 }
 
