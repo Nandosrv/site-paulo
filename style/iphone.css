@@ -34,12 +34,12 @@
 
     main{
         width: auto;
-         background: #ccc;
+         background: #2b2d42;;
     }
    
     .div-text-p{
         width: 100%;
-        background-color:#808080;
+        background-color:#2b2d42;
         margin-top: 4rem;
     }
 
@@ -56,7 +56,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        background-color: #808080;
+        background-color: #2b2d42;
     }
     .comprar-iphone h2{
         font-size: 2rem;
@@ -86,7 +86,7 @@
     
 
     .trabalhamos{
-        
+        background: #35385e;
         width: 100%;
         margin: auto;
         border-radius: 12px;
@@ -96,7 +96,7 @@
 
     .trabalhamos h4{
         color: rgb(151, 69, 69);
-        background-color: #808080;
+        background-color: #35385e;
         border: 1px #ccc solid;
     }
 
@@ -109,7 +109,7 @@
         overflow: hidden;
         border-radius: 12px;
         padding: 2rem;
-        background-color: #808080;
+        background-color: #35385e;
     }
 
     .carousel-images {
@@ -136,7 +136,7 @@
         font-size: 1.5rem;
         color: rgb(151, 69, 69);
         border: 1px #ccc solid;
-        background-color: #808080;
+        background-color: #35385e;
         border-radius: 12px;
     }
 
@@ -154,8 +154,8 @@
     }
 
     .img-ass p{
-        color: #808080;
-        text-align: center;
+        color: #edf2f4;
+        
         font-size: 17px;
     }
 
@@ -173,7 +173,7 @@
         border-radius: 12px;
         font-size: 1.7rem;
         text-align: center;
-        background-color: #808080;
+        background-color: #35385e;
         color: #fff;
     }
 
