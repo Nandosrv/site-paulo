@@ -71,22 +71,29 @@
             align-items: center;
             margin-top: 3rem;
             background: #493c3c;
+            
            }
 
            h3{
             display: flex;
             padding: 18px;
            text-align: center;
-           font-size: 1.7rem;
+           font-size: 3rem;
             color: #a2e668;
             margin: 2rem;
             border: 2px rgb(10  4, 13, 13) solid;
             border-radius: 12px;
+            border: 1px solid #ccc;
+            
+            
            }
            p{
             margin: 1rem;
             text-align: center;
             padding: 18px;
+            
+            text-align: left;
+            text-indent: 0;
            }
 
            h4{
@@ -94,9 +101,10 @@
             padding: 18px;
            text-align: center;
            font-size: 1.7rem;
-            color: #68b4e6;
+           color: #a2e668;
             border: 1px rgb(14, 13, 13) solid;
             border-radius: 12px;
+            
            }
 
            #img-text{
@@ -111,6 +119,9 @@
             text-transform: uppercase;
             color: antiquewhite;
             
+           }
+           #img-text p{
+            text-align: center;
            }
 
            .trocar-bateria{
