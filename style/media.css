@@ -1,151 +1,170 @@
 @media screen and (max-width: 1170px) {
-    nav{
-        display: flex;
-        background-color: transparent;
-        width: 75%;
-        margin: 1rem auto;
-        justify-content: space-between;
-        align-items: center;
-        
-        }
+  nav {
+    display: flex;
+    background-color: transparent;
+    width: 75%;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
 
-        #mobile_btn{
-            display: flex;
-            cursor: pointer;
-            
-        }
-        .banner-text {
-          font-size: 1.5rem; 
-          padding: 10px; 
-          white-space: normal;
-          color: #fff;
-          margin-top: 50%;
-          padding: 2%;
-          font-size: 2rem;
-          font-family:  'Poppins', sans-serif;;
-          height: 15vh;
-       }
-        
-       
+  }
 
-        #mudanca{
-            font-size: 2rem;
-            color: #0267C4;
-            
-        }
-          #links{
-             display: none;
-             
-          }
+  #mobile_btn {
+    display: flex;
+    cursor: pointer;
 
-          .btn-contato{
-            display: none;
-          }
-          #links.active{
-            flex-direction: column;
-            align-items: center;
-            margin-top: 4rem;
-            justify-content: center;
-            width: calc(50vh - 65px);
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            display: flex;
-            right: 0;
-            background-color: #0f0f0f;
-            transition: all 0.2s ease-in-out;
-           }
-           #links a{
-            display: flex;
-            color: aliceblue;
-            font-size: 1.2rem;
-            font-family: 'Popns';
-            margin-top: 1rem;
-           
-            
-           }
-           #content-text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 3rem;
-            background-color: #2b2d42;
-            
-            
-           }
+  }
 
-           #content-text b{
-            color: #d90429 ;
-            text-transform: uppercase;
-           }
+  .content-barlder {
+    width: 100%;
+    position: relative;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+  }
+}
 
-           h3{
-            display: flex;
-            padding: 18px;
-           text-align: center;
-           font-size: 3rem;
-            color: #a2e668;
-            margin: 2rem;
-            border: 2px rgb(10  4, 13, 13) solid;
-            border-radius: 12px;
-            border: 1px solid #ccc;
-            
-            
-           }
-           p{
-            margin: 1rem;
-            text-align: center;
-            padding: 18px;
-            color: #fff;
-            text-align: left;
-            text-indent: 0;
-            text-transform: uppercase;
-            font-weight: 500;
-           }
+.banner-text {
+  font-size: 1.5rem;
+  padding: 10px;
+  white-space: normal;
+  color: #fff;
+  display: flex;
+  padding: 2%;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
 
-           h4{
-            display: flex;
-            padding: 18px;
-           text-align: center;
-           font-size: 1.7rem;
-           color: #a2e668;
-            border: 1px rgb(14, 13, 13) solid;
-            border-radius: 12px;
-            
-           }
 
-           #img-text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          
-            border-bottom: 1px solid rgb(36, 28, 28);
-            gap: 5rem;
-            margin: 2rem;
-            text-transform: uppercase;
-            color: antiquewhite;
-            
-           }
-           #img-text p{
-            text-align: center;
-           }
 
-           .trocar-bateria{
-           
-            font-size: 1.5rem;
-            margin-top: -4rem;
-           }
+#mudanca {
+  font-size: 2rem;
+  color: #0267C4;
 
-           .restauracao-de-software{
-            font-size: 1.5rem;
-            margin-top: -4rem;
-            
-           }
+}
 
-           .troca-de-tela{
-            font-size: 1.5rem;
-            margin-top: -4rem;
-           }
-}   
+#links {
+  display: none;
+
+}
+
+.btn-contato {
+  display: none;
+}
+
+#links.active {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  justify-content: center;
+  width: calc(50vh - 65px);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  right: 0;
+  background-color: #0f0f0f;
+  transition: all 0.2s ease-in-out;
+}
+
+#links a {
+  display: flex;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-family: 'Popns';
+  margin-top: 1rem;
+
+
+}
+
+#content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  background-color: #2b2d42;
+
+
+}
+
+#content-text b {
+  color: #d90429;
+  text-transform: uppercase;
+}
+
+h3 {
+  width: 97%;
+  display: flex;
+  padding: 8px;
+  text-align: center;
+  font-size: 3rem;
+  color: #a2e668;
+  border: 2px rgb(10 4, 13, 13) solid;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+
+
+}
+
+p {
+  margin: 1rem;
+  text-align: center;
+  padding: 18px;
+  color: #fff;
+  text-align: left;
+  text-indent: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h4 {
+  display: flex;
+  padding: 18px;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #a2e668;
+  border: 1px rgb(14, 13, 13) solid;
+  border-radius: 12px;
+
+}
+
+#img-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid rgb(36, 28, 28);
+  gap: 5rem;
+  margin: 2rem;
+  text-transform: uppercase;
+  color: antiquewhite;
+
+}
+
+#img-text p {
+  text-align: center;
+}
+
+.trocar-bateria {
+
+  font-size: 1.5rem;
+  margin-top: -4rem;
+}
+
+.restauracao-de-software {
+  font-size: 1.5rem;
+  margin-top: -4rem;
+
+}
+
+.troca-de-tela {
+  font-size: 1.5rem;
+  margin-top: -4rem;
+}

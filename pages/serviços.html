@@ -32,16 +32,37 @@
             <!-- Navbar -->
             <nav id="navbar">
                 <div id="botton-logo">
-                    <a href="./index.html" target="_blank"><i class="fa-solid fa-c" id="nav_logo">&amp;C</i></a>
+                    <a href="../index.html" target="_blank"><i class="fa-solid fa-c" id="nav_logo">&amp;C</i></a>
                 </div>
-                <div class="nav-links">
+                <div class="nav-linksz">
                     <a href="./index.html">Início</a>
-                    <a href="./pages/main.html">Sobre</a>
-                    <a href="./pages/main.html">Localização</a>
+                    <a href="../pages/saibamais.html">Sobre</a>
+                    <a href="../pages/serviços.html">Serviço</a>
                 </div>
-                <div id="nav-btn">
-                    <i class="fa-solid fa-bars-staggered"></i>
+                <div id="nav-btn" onclick="toggleNav()">
+                    <i id="icon" class="fa-solid fa-bars-staggered"></i>
                 </div>
+                <div id="menu" class="hidden">
+                    <ul>
+                        <li>
+                            <div class="nav-links">
+                                <a href="../index.html">Início</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-links">
+                                <a href="../pages/saibamais.html">Sobre</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="nav-links">
+                                <a href="../pages/serviços.html">Serviço</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                                
+                
             </nav>
 
 
@@ -125,6 +146,8 @@
         <a href="https://wa.me/5516992907838" class="icon" target="_blank"><i class="fab fa-whatsapp"></i></a>
     </div>
 
+
+    <script src="../js/serviço.js"></script>
 
     <footer class="footer">
         <div class="footer-content">
