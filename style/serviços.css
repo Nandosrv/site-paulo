@@ -9,6 +9,7 @@
     background-color: #2b2d42;
 }
 
+
 @media only screen and (max-width: 950px){
     #navbar{
         display: flex;
