@@ -58,6 +58,9 @@
         text-align: center;
         background-color: #2b2d42;
     }
+    .comprar-iphone b{
+        color: red;
+    }
     .comprar-iphone h2{
         font-size: 2rem;
         color: var(--primary);
@@ -145,6 +148,7 @@
         margin: auto;
        display: flex;
        flex-direction: column;
+       
         
     }
 
@@ -155,7 +159,7 @@
 
     .img-ass p{
         color: #edf2f4;
-        
+        text-align: center;
         font-size: 17px;
     }
 

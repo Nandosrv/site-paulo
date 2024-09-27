@@ -58,12 +58,72 @@ body {
     justify-content: space-between;
 }
 
-#links{
-    background: transparent;
+/* Estilos iniciais para o menu */
+#links {
+    background: rgba(255, 255, 255, 0.1); /* Fundo translúcido */
     display: flex;
+    justify-content: center; /* Centraliza os links */
     gap: 20px;
     font-size: 1.6rem;
+    z-index: 2;
+    padding: 1rem;
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    position: relative;
+    opacity: 0; /* Inicialmente invisível */
+    transform: translateY(-50px); /* Começa fora da tela (acima) */
+    animation: slideIn 1s ease forwards; /* Animação de entrada */
 }
+
+/* Animação do menu */
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Desce para sua posição original */
+    }
+}
+
+#links a {
+    color: #0267C4;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+    opacity: 0; /* Inicialmente invisível */
+    animation: fadeIn 1s ease forwards; /* Animação de fade-in */
+    animation-delay: 0.5s; /* Atraso para sincronizar com o menu */
+}
+
+/* Animação para os links */
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Tornar visível */
+    }
+}
+
+#links a:hover {
+    color: #4e8ed8;
+    transform: scale(1.1);
+    background-color: rgba(24, 105, 197, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 1.7rem;
+}
+
+/* Animação para cada link com delay */
+#links a:nth-child(1) {
+    animation-delay: 0.7s; /* Primeiro link */
+}
+
+#links a:nth-child(2) {
+    animation-delay: 0.9s; /* Segundo link */
+}
+
+#links a:nth-child(3) {
+    animation-delay: 1.1s; /* Terceiro link */
+}
+
 
 #header-div img{
     cursor: pointer;
@@ -173,21 +233,7 @@ header ul {
 }
 
 
-#links a {
-    color: #0267C4;
-    text-decoration: none;
-    padding: 1rem;
-    cursor: pointer;
-    transition: 0.3s ease;
 
-}
-
-
- #links a:hover{
-    color: #d8684e;
-    font-size: 19px ;
-
-}
 #mudanca{
     font-family: "Inria Sans", sans-serif;
     color: #d8684e;
