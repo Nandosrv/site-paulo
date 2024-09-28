@@ -13,7 +13,10 @@
     
     .mobile_btn_x{
         z-index: 11;
+        
     } 
+
+   
     .img-logo{
         display: flex;
         justify-content: center;
